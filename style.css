@@ -1,4 +1,4 @@
-/* General Reset */
+
 body {
     margin: 0;
     padding: 0;
@@ -6,7 +6,7 @@ body {
     line-height: 1.6;
     background: linear-gradient(360deg, rgba(254, 163, 1, 0.3) 30%, rgba(255, 255, 255, 0.3) 70%);
 }
-
+/* header section */
 .container {
     max-width: 1160px;
     margin: 0 auto;
@@ -532,145 +532,51 @@ h1 {
     display: flex;
     flex-direction: column;
 }
-/* .stories h2 { 
-    font-size: 2em; 
-    margin-bottom: 20px; 
-} 
-.story-item { 
-    display: inline-block; 
-    width: 45%; 
-    margin-bottom: 20px; 
-    background-color: #fff; 
-    padding: 10px; 
-    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
-    border-radius: 5px; 
-} 
-.story-item img { 
-    max-width: 100%; 
-    border-radius: 5px; 
-} 
-.story-item h3 { 
-    font-size: 1.2em; 
-    margin-bottom: 10px; 
-} 
-.story-item p { 
-    font-size: 0.9em; 
-    margin-bottom: 10px; 
-} 
-.view-all-btn { 
-    background-color: #4CAF50; 
-    color: #fff; border: none; 
-    padding: 10px 20px; 
-    cursor: pointer; 
-    border-radius: 5px; 
-    font-size: 1em; 
-} */
 
 
-
-/* .curriculum h2 { 
-    font-size: 2em; 
-    margin-bottom: 20px; 
-} 
-.curriculum-item { 
-    margin-bottom: 20px; 
-} 
-.curriculum-item h3 { 
-    font-size: 1.5em; 
-    margin-bottom: 10px; 
-} 
-.curriculum-item p { 
-    font-size: 1em; 
-    margin-bottom: 10px; 
-} 
-.curriculum-item a { 
-    color: #4CAF50; 
-    text-decoration: none; 
-    font-weight: bold; 
-} */
-
-/* Curriculum Section */
-/* .curriculum {
-    padding: 2rem 1rem;
-    background: #f8f9fa;
-    text-align: center;
-}
-
-.curriculum h2 {
-    margin-bottom: 1.5rem;
-}
-
-.curriculum-cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-    justify-content: center;
-}
-
-.card {
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 1rem;
-    width: 100%;
-    max-width: 300px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.card h3 {
-    margin-bottom: 0.75rem;
-} */
-
-/* Stories Section */
-/* .stories {
-    padding: 2rem 1rem;
-}
-
-.story-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-    justify-content: center;
-}
-
-.story {
-    background: #f8f9fa;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 1rem;
-    width: 100%;
-    max-width: 300px;
-}
-
-.story h3 {
-    margin-bottom: 0.5rem;
-} */
-
-/* Footer */
-/* .footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem 0;
-}
-
-.footer a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-.footer a:hover {
-    text-decoration: underline;
-} */
-
-/* Responsive Design */
-/* @media (max-width: 768px) {
-    .nav-list {
-        flex-direction: column;
-        gap: 0.5rem;
+@media (max-width: 430px) {
+    body {
+      font-size: 14px;
+      line-height: 1.4;
     }
-
-    .curriculum-cards, .story-list {
-        flex-direction: column;
+  
+    .container {
+      flex-direction: column;
+      text-align: center;
     }
-} */
+  
+    .logo {
+      font-size: 1.2rem;
+    }
+  
+    .btn-primary {
+      width: 150px;
+      height: 40px;
+      font-size: 1rem;
+    }
+  
+    .hero-kids {
+      grid-template-columns: 1fr;
+    }
+  
+    .curriculum-container {
+      grid-template-columns: 1fr;
+    }
+  
+    .card-container {
+      grid-template-columns: 1fr;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  
+    .footer .sec {
+      min-width: 100%;
+      text-align: center;
+    }
+  
+    .footer .social {
+      justify-content: center;
+    }
+  }
